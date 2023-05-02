@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Class</title>
+    <script type="text/javascript">
+      function OnMouseIn(elem) {
+        elem.style.backgroundColor = "red";
+        elem.style.border = "2px solid blue";
+      }
+      function OnMouseOut(elem) {
+        elem.style.backgroundColor = "aqua";
+        elem.style.border = "2px dotted black";
+      }
+    </script>
+  </head>
+  <body>
+    <div
+      style="border: 2px solid red; width: 200px"
+      onmouseover="OnMouseIn(this)"
+      onmouseout="OnMouseOut(this)"
+    >
+      Mouse kadhilinchu babai
+    </div>
+  </body>
+</html>
