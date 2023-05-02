@@ -1,3 +1,4 @@
+<!-- onfocus,onblur -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +8,29 @@
     <title>Web Class</title>
   </head>
   <body>
-    p
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam iure
+      blanditiis architecto temporibus odio pariatur, impedit ad debitis minima
+      illum minus sapiente, commodi atque dolore unde autem vel aut optio
+      voluptate quaerat quae! Neque, possimus distinctio. Nam velit qui ipsam a
+      sit dolor commodi impedit, repudiandae illum temporibus numquam
+      accusantium.
+    </p>
+    Enter Your Name :
+    <input
+      type="text"
+      name=""
+      id="myInput"
+      onfocus="focusFunction()"
+      onblur="blurFunction()"
+    />
+    <script type="text/javascript">
+      function focusFunction() {
+        document.getElementById("myInput").style.backgroundColor = "yellow";
+      }
+      function blurFunction() {
+        document.getElementById("myInput").style.backgroundColor = "white";
+      }
+    </script>
   </body>
 </html>
