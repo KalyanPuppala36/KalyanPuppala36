@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime</title>
+  </head>
+  <body>
+    <form id="primeform" action="">
+      <label for="prime">Enter a number to check if it is prime</label>
+      <input type="number" name="num" id="num" />
+      <input type="button" value="Check" onclick="primecheck()" /><br />
+      <input type="text" id="result" readonly />
+    </form>
+    <script>
+      function primecheck() {
+        var num = document.getElementById("num").value;
+        var result = document.getElementById("result");
+        var flag = true;
+        if (num == 1) {
+          flag = false;
+        } else if (num > 1) {
+          for (var i = 2; i < num; i++) {
+            if (num % i == 0) {
+              flag = false;
+              break;
+            }
+          }
+        }
+        if (flag == true) {
+          result.value = "Prime";
+        } else {
+          result.value = "Not Prime";
+        }
+      }
+    </script>
+  </body>
+</html>
