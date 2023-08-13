@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Venkata Naga Kalyan Puppala</h1>
-<h3 align="center">A passionate frontend developer from Andhra Pradesh, India</h3>
+<h3 align="center">A passionate Programmer, Data Enthusiast, frontend developer from Andhra Pradesh, India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kalyanpuppala36&label=Profile%20views&color=0e75b6&style=flat" alt="kalyanpuppala36" /> </p>
 
