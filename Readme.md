@@ -7,7 +7,7 @@
 
 - 👨‍💻 All of my details are available at [https://nagakalyanpuppala.wixsite.com/my-site](https://nagakalyanpuppala.wixsite.com/my-site)
 
-- 💬 Ask me about **Python, SQL, C++, HTML&CSS, React**
+- 💬 Ask me about **Python, SQL, EDA, C++, HTML&CSS, React**
 
 - 📫 How to reach me **kalyanpuppala20@gmail.com**
 
